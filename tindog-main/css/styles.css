@@ -1,0 +1,155 @@
+
+body{
+  margin-right: 0;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+#title{
+  background-color: #ff4c68;
+}
+h1{
+  font-family: 'Montserrat', sans-serif ;
+  font-size: 3.5rem ;
+  line-height: 1.5 ;
+  font-weight: 900 ;
+  color: white;
+}
+
+.navbar{
+  padding: 0;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.row1{
+  padding-top: 4.5rem;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.rotate{
+  transform: rotate(25deg);
+  width:60%;
+  position: absolute;
+  right: 30%;
+}
+
+.colfeat{
+  text-align : center;
+}
+.feat{
+  color: #ef8172;
+}
+.feath{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 1.5rem;
+}
+.row2{
+  padding: 7% 15%;
+}
+
+#features{
+  background-color: white;
+  position: relative;
+  padding: 7%;
+}
+.featp{
+  color : #8f8f8f;
+  margin: 15%;
+  margin-top: 0;
+}
+.feat:hover{
+    color:#ff4c68;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+h2{
+  font-family: "Montserrat",sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.test-img{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.price-col{
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  .rotate{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align:center!important;
+  padding: 7% 15%;
+}
+.ccta{
+  font-family: "Montserrat",sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 3rem;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.foot{
+  padding: 1rem;
+}
+.grey{
+  color:grey
+}
